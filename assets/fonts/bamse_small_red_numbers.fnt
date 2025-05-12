@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<font>
+  <info face="Bamse Red Numbers" size="48" bold="0" italic="0" charset="" unicode="1" stretchH="100" smooth="1" aa="1" padding="0,0,0,0" spacing="1,1" outline="2"/>
+  <common lineHeight="48" base="38" scaleW="256" scaleH="128" pages="1" packed="0" alphaChnl="1" redChnl="0" greenChnl="0" blueChnl="0"/>
+  <pages>
+    <page id="0" file="bamse_small_red_numbers_0.png" />
+  </pages>
+  <chars count="10">
+    <char id="48" x="31" y="0" width="27" height="35" xoffset="-1" yoffset="6" xadvance="25" page="0" chnl="15" />
+    <char id="49" x="232" y="0" width="16" height="33" xoffset="0" yoffset="7" xadvance="15" page="0" chnl="15" />
+    <char id="50" x="148" y="0" width="27" height="34" xoffset="-1" yoffset="7" xadvance="25" page="0" chnl="15" />
+    <char id="51" x="119" y="0" width="28" height="34" xoffset="-1" yoffset="7" xadvance="26" page="0" chnl="15" />
+    <char id="52" x="0" y="0" width="30" height="35" xoffset="-2" yoffset="7" xadvance="26" page="0" chnl="15" />
+    <char id="53" x="176" y="0" width="27" height="34" xoffset="-2" yoffset="7" xadvance="24" page="0" chnl="15" />
+    <char id="54" x="59" y="0" width="29" height="34" xoffset="-2" yoffset="7" xadvance="26" page="0" chnl="15" />
+    <char id="55" x="0" y="36" width="25" height="33" xoffset="-3" yoffset="7" xadvance="21" page="0" chnl="15" />
+    <char id="56" x="204" y="0" width="27" height="33" xoffset="-1" yoffset="7" xadvance="24" page="0" chnl="15" />
+    <char id="57" x="89" y="0" width="29" height="34" xoffset="-1" yoffset="7" xadvance="26" page="0" chnl="15" />
+  </chars>
+</font>
