@@ -44,6 +44,7 @@ function rend(){
 }
 
 g = 10000
+marginal = 1
 
 function fysix(){
     for (obj of l){
@@ -55,15 +56,15 @@ function fysix(){
                     obj.x+= -1*g*(obj.x-obj2.x)**(-2)*Math.sign(obj2.x-obj.x)
                     obj.y+= -1*g*(obj.y-obj2.y)**(-2)*Math.sign(obj2.y-obj.y)
 
-                    if (obj.x < 0)obj.x = 30
-                    if (obj2.x < 0)obj2.x = 30
-                    if (obj.y < 0)obj.y = 30
-                    if (obj2.y < 0)obj2.y = 30
+                    if (obj.x < 0)obj.x = marginal
+                    if (obj2.x < 0)obj2.x = marginal
+                    if (obj.y < 0)obj.y = marginal
+                    if (obj2.y < 0)obj2.y = marginal
                     
-                    if (obj.x > canvas.width-10)obj.x = canvas.width-30
-                    if (obj2.x > canvas.width-10)obj2.x = canvas.width-30
-                    if (obj.y > canvas.height)obj.y = canvas.height-30
-                    if (obj2.y > canvas.height)obj2.y = canvas.height-30
+                    if (obj.x > canvas.width-10)obj.x = canvas.width-marginal
+                    if (obj2.x > canvas.width-10)obj2.x = canvas.width-marginal
+                    if (obj.y > canvas.height)obj.y = canvas.height-marginal
+                    if (obj2.y > canvas.height)obj2.y = canvas.height-marginal
 
                     if (isNaN(obj.y))obj.y = Math.random()*canvas.height
                     if (isNaN(obj2.y))obj2.y = Math.random()*canvas.height
